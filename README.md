@@ -20,12 +20,6 @@ Installation
 1.  Open the `settings.json` file in any text editor and replace the existing `settings.json` with the contents of the `settings.json` file in this repository.
 2.  Save the `settings.json` file and restart Windows Terminal.
 
-Usage
------
-
-Once you have installed the configurations, you can start using them in PowerShell and Windows Terminal.
-
-The `settings.json` file contains the configuration settings for Windows Terminal, including the color scheme, font, and default shell. You can modify this file to customize the appearance and behavior of Windows Terminal.
 
 Contributing
 ------------
