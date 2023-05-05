@@ -49,14 +49,15 @@
     {
         "defaults": 
         {
-            "colorScheme": "Horizon",
+            "colorScheme": "Dracula",
             "font": 
             {
                 "face": "FiraCode NF",
                 "size": 11.0
             },
-            "opacity": 90,
-            "useAcrylic": true
+            "opacity": 65,
+            "useAcrylic": true,
+            "useAtlasEngine": true
         },
         "list": 
         [
@@ -147,27 +148,27 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#1C1E26",
-            "black": "#0A0A0D",
-            "blue": "#26BBD9",
-            "brightBlack": "#848484",
-            "brightBlue": "#3FC4DE",
-            "brightCyan": "#6BE4E6",
-            "brightGreen": "#3FDAA4",
-            "brightPurple": "#F075B5",
-            "brightRed": "#EC6A88",
-            "brightWhite": "#E5E5E5",
-            "brightYellow": "#FBC3A7",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#59E1E3",
-            "foreground": "#BDC0C2",
-            "green": "#29D398",
-            "name": "Horizon",
-            "purple": "#EE64AC",
-            "red": "#E95678",
-            "selectionBackground": "#FFFFFF",
-            "white": "#E5E5E5",
-            "yellow": "#FAB795"
+            "background": "#282A36",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#F8F8F2",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
         },
         {
             "background": "#282C34",
@@ -354,5 +355,7 @@
             "yellow": "#808000"
         }
     ],
-    "themes": []
+    "showTabsInTitlebar": true,
+    "themes": [],
+    "useAcrylicInTabRow": true
 }

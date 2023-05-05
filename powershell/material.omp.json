@@ -5,38 +5,48 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ffffff",
+          "foreground": "#f8f8f2",
           "style": "plain",
-          "template": "<#C591E8>\u276f</><#69FF94>\u276f</>",
+          "template": "<#bd93f9>\u276f</><#50fa7b>\u276f</>",
           "type": "text"
         },
         {
-          "foreground": "#56B6C2",
+          "foreground": "#8be9fd",
           "properties": {
             "style": "folder"
           },
           "style": "plain",
-          "template": " {{ .Path }} ",
+          "template": " {{ .Path }}",
           "type": "path"
         },
         {
-          "foreground": "#D0666F",
+          "foreground": "#f8f8f2",
+          "type": "python",
+          "style": "plain",
+          "template": " \uE235 {{ if .Venv }}{{ .Venv }}{{ end }}",
+          "properties": {
+              "fetch_virtual_env": true,
+              "home_enabled": true
+          }
+      },
+        {
+          "foreground": "#ff5555",
           "properties": {
             "branch_icon": "",
             "fetch_status": false
           },
           "style": "plain",
-          "template": "<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>",
+          "template": " <#8be9fd>git:(</>{{ .HEAD }}<#8be9fd>)</>",
           "type": "git"
         },
         {
-          "foreground": "#DCB977",
+          "foreground": "#ffb86c",
           "style": "plain",
           "template": " \uf119",
           "type": "exit"
         },
         {
-          "foreground": "#66F68F",
+          "foreground": "#50fa7b",
           "properties": {
             "time_format": "15:04"
           },
